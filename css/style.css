@@ -1,0 +1,91 @@
+ body {
+            font-family: Verdana, Arial, sans-serif;
+            color: #666;
+        }
+
+        #container {
+            width: 720px;
+            margin: 0 auto;
+        }
+
+        h2,h3 {
+            color: #6FAADC;
+        }
+
+/*         img {*/
+        #view {
+            float: right;
+            padding-right: 10px;
+            padding-bottom: 10px;
+        }
+
+        p,
+        li {
+            font-size: 12px;
+        }
+
+        #nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            margin-bottom: 20px;
+        }
+
+        #nav ul li {
+            float: left;
+            margin-right: 10px;
+        }
+
+        #nav ul li a {
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            border-style: solid;
+            border-width: 1px;
+            border-color: #2F7FC4;
+            color: orange;
+            padding: 4px;
+        }
+
+        /*    When they are hovered they should have a background color of 2F7FC4 (blue) and the text should be white.*/
+ 
+        #nav ul li a:hover {
+            background-color: #2F7FC4;
+            color: #fff;
+        }
+
+        /*    When they have been visited they should have grey text and a grey border (use #666).*/
+
+        #nav ul li a:visited {
+            background-color: #fff;
+            color: #666;
+            border-color: #666;
+        }
+        iframe.myFrame {
+            width: 100%!important;
+            height: 700px!important;
+        }
+        /*    When the user is clicking down on them (active state) they should have a light blue background color (B7D8F5) and blue text (2F7FC4)*/
+
+        #nav ul li a:active {
+            background-color: #B7D8F5;
+            color: #2F7FC4;
+            border-color: #2F7FC4;
+        }
+
+        /*    Regular page links should have blue text (2F7FC4) and should turn to orange (D95A07) text on hover*/
+
+        #regular a {
+            color: #2F7FC4;
+        }
+
+        #regular a:hover {
+            color: #D95A07;
+        }
+        
+        #footer {
+            clear: both;
+            color: #333;
+            text-align: center;
+        }
